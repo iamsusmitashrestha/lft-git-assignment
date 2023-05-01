@@ -46,3 +46,20 @@ To revert a commit in Git, you can use the git revert command. This command crea
 `git reset`: This command allows us to undo changes by resetting our Git repository to a previous commit. When we use `git reset`, Git erases the changes made in one or more commits, and sets the Git repository back to a previous state. `git reset` is useful when we want to undo changes that have not yet been pushed to a remote repository, or when we want to remove unwanted changes from the Git history entirely.
 
 ---
+
+## 7. Write the difference between fetch and pull command.
+
+The git fetch command first fetches the changes from the remote repository and then stored the changes in a separate branch in our local repository. On the other hand, the git pull command pulls all the changes from the remote repository to our corresponding branch of the local repository.
+
+---
+
+## 8. How to handle merge conflicts?
+
+There are a few steps that could reduce the steps needed to resolve merge conflicts in Git.
+
+- The easiest way to resolve a conflicted file is to open it and make any necessary changes
+- After editing the file, we can use the git add a command to stage the new merged content
+- The final step is to create a new commit with the help of the git commit command
+- Git will create a new merge commit to finalize the merge
+
+---
